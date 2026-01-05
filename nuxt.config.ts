@@ -69,23 +69,6 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true,
-    typeCheck: false, // Disable for now during migration - old tsx files cause errors
-  },
-
-  // Ignore old Next.js files during migration
-  ignore: [
-    'pages/**/*.tsx',
-    'components/**/*.tsx',
-    'utils/api.ts',
-  ],
-
-  components: {
-    dirs: [
-      {
-        path: '~/components',
-        extensions: ['vue'],
-      },
-    ],
   },
 
   devtools: { enabled: true },

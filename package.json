@@ -14,7 +14,6 @@
     "type-check": "nuxt typecheck"
   },
   "dependencies": {
-    "@cryptostats/sdk": "^0.2.13",
     "@pinia/nuxt": "^0.9.0",
     "@nuxt/image": "^1.9.0",
     "@vueuse/core": "^12.4.0",
@@ -22,19 +21,14 @@
     "vue-chartjs": "^5.3.2",
     "date-fns": "^4.1.0",
     "floating-vue": "^5.2.2",
-    "mongodb": "^6.12.0",
     "numeral": "^2.0.6",
     "pinia": "^2.3.1",
-    "redis": "^4.7.0",
-    "pg": "^8.13.1",
-    "sharp": "^0.33.5",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@nuxt/devtools": "^2.1.0",
     "@types/numeral": "^2.0.5",
-    "@types/pg": "^8.11.11",
     "nuxt": "^3.15.2",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3",
