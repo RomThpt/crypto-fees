@@ -9,7 +9,7 @@
 import type { Adapter as SDKAdapter } from '@cryptostats/sdk';
 import { Metadata } from '../types';
 
-import sdk from 'data/sdk';
+import sdk from '../sdk';
 
 interface Adapter {
   query: any;
